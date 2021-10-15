@@ -47,12 +47,14 @@ An error occurs because i is defined using let, which means the scope of i is on
     **3** will be printed
     line 12 will be printing length of prices which is 3, so 3 is printed 
 
-11.  **What will this function return? Give a brief explanation. If the code causes an error, explain why**
+11. **What will this function return? Give a brief explanation. If the code causes an error, explain why**
+
+    
 
     **(3) [50, 100, 150]**
     The function will return an array with size of 3, which is the array of the discounted prices.
 
-12.  **Given the above Object, write the notation for:  (These should be in your part2.md)**
+12. **Given the above Object, write the notation for:  (These should be in your part2.md)**
 - Accessing the value of the name property in the student object
 - Accessing the value of the Grad Year property in the student object
 - Calling the function for the greeting property in the student object
