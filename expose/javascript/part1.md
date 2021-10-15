@@ -1,8 +1,11 @@
 1. **What is printed by line 9? If the code returns an error, explain why.**
+
     values added:  20
 2. **What is printed by line 13? If the code returns an error, explain why.**
+
     final result:  20
 3. **What is printed by line 9? If the code returns an error, explain why.**
+
    values added:  20
 4. **What is printed by line 13? If the code returns an error, explain why.**
 ```
