@@ -25,6 +25,7 @@ An error occurs because i is defined using let, which means the scope of i is on
 > Uncaught ReferenceError: discountedPrice is not defined
 
 An error occurs because discountedPrice is defined using let, which means the scope of discountedPrice is only within the for loop and line 13 is not included in the scope.
+
 7. **What will happen at line 14 and why? If the code causes an error, explain why.**
 
     **150** will be printed
