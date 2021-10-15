@@ -43,7 +43,7 @@ An error occurs because discountedPrice is defined using let, which means the sc
 
     **3** will be printed
     line 12 will be printing length of prices which is 3, so 3 is printed 
-
+    
 11.  **What will this function return? Give a brief explanation. If the code causes an error, explain why**
 
     **(3) [50, 100, 150]**
