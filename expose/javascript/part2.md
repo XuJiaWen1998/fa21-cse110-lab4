@@ -2,17 +2,21 @@
 
     **3** will be printed
     line 12 will be printing the index of the for loop when the for loop end. i == prices.length when the for loop, where the length of prices is 3, so 3 is printed 
+    
 2. **What will happen at line 13 and why? If the code causes an error, explain why.**
 
     **150** will be printed
     line 13 will print the value of discounted price of the last element in [100, 200, 300], which is 300 * 0.5 = 150
+    
 3. **What will happen at line 14 and why? If the code causes an error, explain why.**
 
     **150** will be printed
     line 14 will print the final price of the last element in [100, 200, 300], which is Math.round(300 * 0.5 * 100)/100, and it is supposed to be 150
+    
 4. **What will this function return? Give a brief explanation why. If the code causes an error, explain why**
 
     **(3) [50, 100, 150]**
+
     The function will return an array with size of 3, which is the array of the discounted prices.
 
 5. **What will happen at line 12 and why?  If the code causes an error, explain why.(assume this function is being called like the others: discountPrices([100, 200, 300], 0.5)).**
@@ -32,10 +36,13 @@ An error occurs because discountedPrice is defined using let, which means the sc
     **150** will be printed
     line 14 will print the final price of the last element in [100, 200, 300], which is Math.round(300 * 0.5 * 100)/100, and it is supposed to be 150
     There is no error this time because line 14 is within the scope of finalPrice
+    
 8. **What will this function return? Give a brief explanation. If the code causes an error, explain why.**
 
     **(3) [50, 100, 150]**
+    
     The function will return an array with size of 3, which is the array of the discounted prices.
+    
 9.  **What will happen at line 11 and why? If the code causes an error, explain why.**
 ```
 Uncaught ReferenceError: i is not defined
@@ -47,11 +54,10 @@ An error occurs because i is defined using let, which means the scope of i is on
     **3** will be printed
     line 12 will be printing length of prices which is 3, so 3 is printed 
 
-11. **What will this function return? Give a brief explanation. If the code causes an error, explain why**
-
-    
+11. **What will this function return? Give a brief explanation. If the code causes an error, explain why.**
 
     **(3) [50, 100, 150]**
+
     The function will return an array with size of 3, which is the array of the discounted prices.
 
 12. **Given the above Object, write the notation for:  (These should be in your part2.md)**
