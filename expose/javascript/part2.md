@@ -96,30 +96,57 @@ An error occurs because i is defined using let, which means the scope of i is on
 13.  **Arithmetic**
 
     - ‘3’ + 2
-
+      - **'32'**
     - ‘3’ - 2
+      - **1**
     - 3 + null
+      - **3**
     - ‘3’ + null
+      - **'3null'**
     - true + 3
+      - **4**
     - false + null
+      - **0**
     - '3' + undefined
+      - **'3undefined'**
     - '3' - undefined
+      - **NaN**
 
 14. **Comparison**
 
     - ‘2’ > 1
+      - **true**
     - ‘2’ < ‘12’
+      - **false**
     - 2 == ‘2’
+      - **true**
     - 2 === ‘2’
+      - **false**
     - true == 2
+      - **false**
     - true === Boolean(2)
+      - **true**
 
 15. **Explain the difference between the == and === operators.**
 
+== is used for comparison between two variables without comparing the datatype. === is used for comparison between two variables but it will check the data types of two variables, 
+
 16. **Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part2-question16.js)**
 
-17. **If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development. **
+[part2-question16](part2-question16.js)
 
-18. **The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)**
+17.**If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development.**
 
-19. **What is the output of the above code? (This should be in your part2.md)**
+**(3) [2, 4, 6] will be printed**
+The arrau [1, 2, 3] is passed into modifyArray with an argument doSomething. Inside the modifyArray, the doSomething will be called as a function taking each element as argument, and double the value in the doSomething function, so the final returned value is [2, 4, 6].
+
+18.  **The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)**
+
+[part2-question18](part2-question18.js)
+
+19.  **What is the output of the above code? (This should be in your part2.md)**
+
+1
+4
+3
+2
