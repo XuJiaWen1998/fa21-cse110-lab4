@@ -93,41 +93,43 @@ An error occurs because i is defined using let, which means the scope of i is on
 
 **For each of the following questions, note down the output as well as a brief explanation why that output was given  (These should be in your part2.md).**
 
-13.   **Arithmetic**
+13. **Arithmetic**
 
-    - ‘3’ + 2
-      **Output: '32'**
-    - ‘3’ - 2
-      **Output: 1**
-    - 3 + null
-      **Output: 3**
-    - ‘3’ + null
-      **Output: '3null'**
-    - true + 3
-      **Output: 4**
-    - false + null
-      **Output: 0**
-    - '3' + undefined
-      **Output: '3undefined'**
-    - '3' - undefined
-      **Output: NaN**
+- ‘3’ + 2
+  **Output: '32'**
+- ‘3’ - 2
+  **Output: 1**
+- 3 + null
+  **Output: 3**
+- ‘3’ + null
+  **Output: '3null'**
+- true + 3
+  **Output: 4**
+- false + null
+  **Output: 0**
+- '3' + undefined
+  **Output: '3undefined'**
+- '3' - undefined
+  **Output: NaN**
 
-14.  **Comparison**
 
-    - ‘2’ > 1
-      **Output: true**
-    - ‘2’ < ‘12’
-      **Output: false**
-    - 2 == ‘2’
-      **Output: true**
-    - 2 === ‘2’
-      **Output: false**
-    - true == 2
-      **Output: false**
-    - true === Boolean(2)
-      **Output: true**
 
-15.  **Explain the difference between the == and === operators.**
+14. **Comparison**
+
+- ‘2’ > 1
+  **Output: true**
+- ‘2’ < ‘12’
+  **Output: false**
+- 2 == ‘2’
+  **Output: true**
+- 2 === ‘2’
+  **Output: false**
+- true == 2
+  **Output: false**
+- true === Boolean(2)
+  **Output: true**
+
+1.   **Explain the difference between the == and === operators.**
 
 == is used for comparison between two variables without comparing the datatype. === is used for comparison between two variables but it will check the data types of two variables, 
 
