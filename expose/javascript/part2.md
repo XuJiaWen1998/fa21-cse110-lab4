@@ -91,41 +91,41 @@ An error occurs because i is defined using let, which means the scope of i is on
   student.courseLoad[0]
   ```
 
-**For each of the following questions, note down the output as well as a brief explanation why that output was given  (These should be in your part2.md). **
+**For each of the following questions, note down the output as well as a brief explanation why that output was given  (These should be in your part2.md).**
 
 13.   **Arithmetic**
 
     - ‘3’ + 2
-      - **'32'**
+      **Output: '32'**
     - ‘3’ - 2
-      - **1**
+      **Output: 1**
     - 3 + null
-      - **3**
+      **Output: 3**
     - ‘3’ + null
-      - **'3null'**
+      **Output: '3null'**
     - true + 3
-      - **4**
+      **Output: 4**
     - false + null
-      - **0**
+      **Output: 0**
     - '3' + undefined
-      - **'3undefined'**
+      **Output: '3undefined'**
     - '3' - undefined
-      - **NaN**
+      **Output: NaN**
 
 14.  **Comparison**
 
     - ‘2’ > 1
-      - **true**
+      **Output: true**
     - ‘2’ < ‘12’
-      - **false**
+      **Output: false**
     - 2 == ‘2’
-      - **true**
+      **Output: true**
     - 2 === ‘2’
-      - **false**
+      **Output: false**
     - true == 2
-      - **false**
+      **Output: false**
     - true === Boolean(2)
-      - **true**
+      **Output: true**
 
 15.  **Explain the difference between the == and === operators.**
 
@@ -138,7 +138,7 @@ An error occurs because i is defined using let, which means the scope of i is on
 17.**If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result. (This should be in your part2.md). Here we are passing in a function as a parameter, however we can also return a function from another function just as easily, you're encouraged to play around with callbacks as they are used heavily in frontend JS development.**
 
 **(3) [2, 4, 6] will be printed**
-The arrau [1, 2, 3] is passed into modifyArray with an argument doSomething. Inside the modifyArray, the doSomething will be called as a function taking each element as argument, and double the value in the doSomething function, so the final returned value is [2, 4, 6].
+The array [1, 2, 3] is passed into modifyArray with an argument doSomething. Inside the modifyArray, the doSomething will be called as a function taking each element as argument, and double the value in the doSomething function, so the final returned value is [2, 4, 6].
 
 18.  **The above program only prints out the time once when executed. Modify this code such that the program prints out the time every second.  (This should be a JS file - part2-question18.js)**
 
@@ -147,6 +147,9 @@ The arrau [1, 2, 3] is passed into modifyArray with an argument doSomething. Ins
 19.  **What is the output of the above code? (This should be in your part2.md)**
 
 1
+
 4
+
 3
+
 2
