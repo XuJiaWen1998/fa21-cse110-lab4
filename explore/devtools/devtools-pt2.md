@@ -6,4 +6,4 @@ The bug is that the input of "num1" and "num2" appear to be string, and when the
 
 I use Number() for the input of "num1" and "num2" to cast them into type of number
 
-![image-20211016183504501](fix.jpg)
+![image-20211016183504501](fix.JPG)
