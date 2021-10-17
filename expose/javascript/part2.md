@@ -129,7 +129,7 @@ An error occurs because i is defined using let, which means the scope of i is on
 - true === Boolean(2)
   **Output: true**
 
-1.   **Explain the difference between the == and === operators.**
+15. **Explain the difference between the == and === operators.**
 
 == is used for comparison between two variables without comparing the datatype. === is used for comparison between two variables but it will check the data types of two variables, 
 
