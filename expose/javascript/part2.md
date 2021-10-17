@@ -63,37 +63,37 @@ An error occurs because i is defined using let, which means the scope of i is on
 12. **Given the above Object, write the notation for:  (These should be in your part2.md)**
 - Accessing the value of the name property in the student object
 
-  ```javascript
+  ```
   student.name
   ```
 
 - Accessing the value of the Grad Year property in the student object
 
-  ```javascript
+  ```
   student['Grad Year']
   ```
 
 - Calling the function for the greeting property in the student object
 
-  ```javascript
+  ```
   student.greeting()
   ```
 
 - Accessing the name property of the object in the Favorite Teacher property in student
 
-  ```javascript
+  ```
   student['Favorite Teacher'].name
   ```
 
 - Access the first index in the array of the courseLoad property of the student object
 
-  ```javascript
+  ```
   student.courseLoad[0]
   ```
 
 **For each of the following questions, note down the output as well as a brief explanation why that output was given  (These should be in your part2.md). **
 
-13.  **Arithmetic**
+13.   **Arithmetic**
 
     - ‘3’ + 2
       - **'32'**
@@ -112,7 +112,7 @@ An error occurs because i is defined using let, which means the scope of i is on
     - '3' - undefined
       - **NaN**
 
-14. **Comparison**
+14.  **Comparison**
 
     - ‘2’ > 1
       - **true**
@@ -127,7 +127,7 @@ An error occurs because i is defined using let, which means the scope of i is on
     - true === Boolean(2)
       - **true**
 
-15. **Explain the difference between the == and === operators.**
+15.  **Explain the difference between the == and === operators.**
 
 == is used for comparison between two variables without comparing the datatype. === is used for comparison between two variables but it will check the data types of two variables, 
 
